@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#F4F4F4" /> <!-- Màu nền -->
+    <stroke
+        android:width="5dp"
+        android:color="#96C1B6" /> <!-- Màu và độ rộng của đường viền -->
+</shape>

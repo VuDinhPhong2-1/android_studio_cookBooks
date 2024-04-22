@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AddFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1F1F1F"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/bibimbap" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Lưu chữ tất cả món ăn bạn nấu ở cùng một nơi"
+            android:textColor="#F2F3F8"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Và chia sẻ với gia đình bạn bè"
+            android:textColor="#F2F3F8"
+            android:textSize="15sp" />
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_back_btn_add_cook_book">
+
+            <TextView
+                android:id="@+id/add_food_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/image_add_food"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="70dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/add_food" />
+
+            <TextView
+                android:id="@+id/viet_mon_moi_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/image_add_food"
+                android:gravity="center"
+                android:layout_marginLeft="-35dp"
+                android:text="Viết món mới"
+                android:textColor="#2C211B" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</FrameLayout>

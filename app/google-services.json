@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "581393783501",
+    "firebase_url": "https://app-day-nau-an-ffe42-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "app-day-nau-an-ffe42",
+    "storage_bucket": "app-day-nau-an-ffe42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581393783501:android:693de012ea5003ae14e784",
+        "android_client_info": {
+          "package_name": "com.example.doanltttbdd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-3yrf4MZO5u-LpthKmggb_7tVBx_m4gQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
